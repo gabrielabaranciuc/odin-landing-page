@@ -173,7 +173,6 @@ button:active {
     font-weight: 900;
 }
 
-
 ul {
     display: flex;
     list-style-type: none;
@@ -215,7 +214,6 @@ figure {
 }
 
 figcaption {
-    /* display: flex; */
    text-align: right;
    font-weight: 600;
 }
@@ -225,7 +223,6 @@ figcaption {
         max-width: 700px;
     }
 }
-
 
 .signup {
    background-color: #fff;
@@ -244,8 +241,6 @@ figcaption {
         align-items: center;
      }
 }
-
-
 
 .signup-container {
     background-color: #3882f6;
