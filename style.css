@@ -18,26 +18,20 @@ body {
 .container {
     margin: 0 auto;
     opacity: 0.8;
-    /* display: flex;
-    flex-direction: column; */
-    /* justify-content: center;
-    align-items: center; */
 }
 
 @media screen and (min-width: 765px) {
     .container {
         max-width: 900px;
-        /* justify-content: center; */
     }
 }
-
 
 .hero, footer {
     background: var(--background);
 }
 
 .hero {
-    padding: 1.5em 3em 3em 3em;
+    padding: 1em 3em 1.5em 3em;
 }
 
 .hero-header {
@@ -46,15 +40,15 @@ body {
     margin: 0;
     padding: 0;
 }
+
 @media screen and (min-width: 765px) {
     .hero-header {
         display: flex;
         justify-content: space-between;
         margin: 0 2em;
-        padding: 1.5em 1.5em 0 1.5em;
+        padding: 0 1.5em;
     }
 }
-
 
 .hero-content {
     display: flex;
@@ -68,16 +62,13 @@ body {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        /* flex-wrap: wrap; */
         gap: 30px;
     }
 }
 
 .hero-text {
     max-width: 500px;
-    /* font-size: 18px; */
 }
-
 
 @media screen and (min-width: 765px) {
     .hero-text {
@@ -86,9 +77,15 @@ body {
 }
 
 .hero-title {
-    font-size: 48px;
+    font-size: 38px;
     font-weight: 900;
     margin-bottom: 0;
+}
+
+@media screen and (min-width: 765px) {
+    .hero-title {
+        font-size: 48px;
+    }
 }
 
 button {
@@ -148,8 +145,14 @@ button:active {
 }
 
 .cards-title {
-    font-size: 36px;
+    font-size: 30px;
     color: #1f2937;
+}
+
+@media screen and (min-width: 765px) {
+    .cards-title {
+        font-size: 36px;
+    }
 }
 
 .card {
@@ -197,16 +200,18 @@ a {
 @media screen and (min-width: 765px) {
     .quote {
         font-size: 28px;
+    }
 }
 
 figure {
-   max-width: 300px;
    margin: 0;
+   padding: 30px;
 }
 
 @media screen and (min-width: 765px) {
     figure {
         max-width: 700px;
+    }
 }
 
 figcaption {
@@ -218,23 +223,21 @@ figcaption {
 @media screen and (min-width: 765px) {
     figcaption {
         max-width: 700px;
+    }
 }
 
 
 .signup {
    background-color: #fff;
-   /* padding: 2em 3em; */
    display: flex;
    margin: 0 auto;
    justify-content: center;
    align-items: center;
-   max-width: 300px;
 }
 
 @media screen and (min-width: 765px) {
     .signup {
         background-color: #fff;
-        /* padding: 2em 3em; */
         display: flex;
         margin: 0 auto;
         justify-content: center;
@@ -246,14 +249,10 @@ figcaption {
 
 .signup-container {
     background-color: #3882f6;
-    max-width: 300px;
-    /* display: flex;
-    justify-content: center;
-   align-items: center; */
-   border-radius: 5px;
-   padding: 5px 50px;
-   margin: 50px;
-   gap: 100px;
+    max-width: 470px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin: 50px;
 }
 
 @media screen and (min-width: 765px) {
@@ -261,19 +260,35 @@ figcaption {
         background-color: #3882f6;
         max-width: 700px;
         display: flex;
-       justify-content: space-between;
-       align-items: center;
-       border-radius: 5px;
-       padding: 5px 50px;
-       margin: 50px;
-       gap: 100px;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 5px;
+        padding: 15px 40px;
+        margin: 50px;
+        gap: 20px;
     }
 }
 .signup-title {
-    margin-bottom: 0;
+    margin: 0 0 2px 0;
+    font-size: 20px;
+}
+
+@media screen and (min-width: 765px) {
+    .signup-title {
+       margin: 0;
+       font-size: 20px;
+    }
 }
 .signup-subtitle {
     margin-top: 0;
+    font-size: 16px;
+}
+
+@media screen and (min-width: 765px) {
+    .signup-subtitle {
+       margin: 0;
+       font-size: 18px;
+    }
 }
 
 .signup-button {
@@ -303,4 +318,4 @@ figcaption {
 footer {
     text-align: center;
     line-height: 100px;
-}
+ }
